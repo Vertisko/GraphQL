@@ -1,0 +1,18 @@
+api_platform:
+    graphql:
+        enabled: true
+        default_ide: 'graphql-playground'
+        graphiql:
+            enabled: true
+        graphql_playground:
+            enabled: true
+        nesting_separator: _
+        collection:
+            pagination:
+                enabled: true
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
