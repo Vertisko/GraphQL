@@ -576,7 +576,7 @@
         "version": "1.9.1"
     },
     "webonyx/graphql-php": {
-        "version": "v0.13.5"
+        "version": "v14.1.1"
     },
     "willdurand/negotiation": {
         "version": "v2.3.1"

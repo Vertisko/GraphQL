@@ -5,7 +5,7 @@
         "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "api-platform/core": "^2.1",
+        "api-platform/core": "dev-master" ,
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^1.6 || ^2.0",
         "doctrine/orm": "^2.4.5",
@@ -36,7 +36,7 @@
         "symfony/validator": "5.1.*",
         "symfony/web-link": "5.1.*",
         "symfony/yaml": "5.1.*",
-        "webonyx/graphql-php": "0.13.5"
+        "webonyx/graphql-php": "v14.1.1"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^3.3",

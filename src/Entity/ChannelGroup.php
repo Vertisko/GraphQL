@@ -9,8 +9,10 @@ use ApiPlatform\Core\Action\NotFoundAction;
 
 /**
  * @ApiResource(
- *     collectionOperations={},
- *     itemOperations={ "get"={ "controller"=NotFoundAction::class, "read"=false, "output"=false } })
+ *     attributes={
+ *          "pagination_type"="page"
+ *     }
+ * )
  * @ORM\Entity(repositoryClass=ChannelGroupRepository::class)
  */
 class ChannelGroup
